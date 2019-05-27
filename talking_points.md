@@ -1,55 +1,13 @@
 # Midterm notes
 
+
+
 ## Intro
 
-Helium: named after Helios
-Discovered in solar eclipse by Herschel's team and could not be identified with known spectra
-	 $1s2p ^3P \rightarrow 1s3d 1D \& 3D$ probably blurring of both
-Second most abundant element in the universe, 23 percent of baryonic mass mostly from the first 3 mins of universe.
-Major fusion product in the elementary forge of the sun, and critical ingredient in forming Carbon-6, essential for life as we know it.
-On earth, vanishingly rare; some 5ppm in atmo
-Connecting to RSPE, Mark Oliphant was part of the team that identified the Helium 3 nucleus in the first ever nuclear fusion experiments
-Of course, there are two stable isotopes of helium; fermionic helium 3, and bosonic helium 4. Their spectra differ, but the fun really starts when we move to the other end of the Kelvin scale, near absolute zero, where helium 4 forms a bose-einstein condensate.
-
-### Cold atom intro
-
-###
-
-Today I'll be talking to you about some recent work by The Helium BEC group, which I hope will illustrate the wealth of problems one can tackle in the ultracold regime. I'll be talking specifically about works that I've been closely involved with, namely two recent ventures into atomic spectroscopy and two works that look beyond single-atom physics into weak and strongly interacting systems, respectively.
-
-So obviously a BEC is a very unusual state of matter - indeed they were only observed in 1995, 70-odd years after they were first described theoretically. The first question one might have is how one actually gets anywhere near absolute zero - and to answer that I'll talk you through the anatomy of a BEC factory. 
-
-This is a schematic of our experiment, which looks kind of forbidding but we'll break it down piece by piece. The bulk of the device is the vacuum chamber, which thanks to a half-dozen turbomolecular pumps is evacuated to about a trillionth of an atmosphere in the science chamber. The pressure is considerably higher in the hot end which houses the plasma discharge source we use to produce Helium in the metastable excited state, which I'll return to shortly. The helium gas expands through a skimming nozzle creating a wide beam, which is collimated and slowed by several stages of laser cooling before capture in a magneto-optical trap. Then, we use a faint beam to kick atoms through a differential pumping stage into the second MOT in the science chamber, where the pressure is low enough to transfer the helium to a magnetic trap and achieve BEC by forced evaporative cooling. We have various devices with which we interrogate the atoms, and then observe their response after they freefall for 350 ms onto our detector. But that's a lot to take in, so let's break that down.
-
-### Laser cooling
-
-Doppler cooling does a great deal of work for us, and the mechanism is alarmingly simple. Consider a two-level atom with some velocity in the laboratory frame. Now suppose there are two oppositely directed lasers, each tuned red, or lower frequency, of the natural transition by some gap Delta. Now, in the atom's reference frame, these beams will be Doppler shifted, and the beam propagating opposite to the atom's motion will be blue-shifted, perhaps enough that the doppler shift little delta is enough to bring the beam back into resonance. The atom absorbs a photon, and thereby a momentum impulse opposite to its motion, slowing it down. If the upper state lifetime is short enough, it will scatter many times before walking out of the beam, each decay giving a kick in a random direction, which over many scattering event averages to zero. This process can neither confine atoms nor, in general, cool them to the ground state, but is instead limited because the linewidth of the atomic transition eventually renders small velocity differences indistinguishable; this is the Doppler limit, which for helium is about 1mK. The first stage of cooling in our experiment is a 2D atomic beam collimation stage, which employs 2D Doppler cooling, before loading into a magneto-optical trap. 
-
-\
-
-So why Helium? 
-Helium's ground state is nearly 20 eV away from the rest of the electronic states, which makes it inaccessible by modern laser technology. However, the 2^3S1 state is doubly forbidden to decay to the ground state, so is endowed with an extraordinarily long lifetime of 7xxx seconds - more than enough for the experiments I'll talk about today. 
-
-
-
-General: Add take-home in text
-
-Spectroscopy has driven technology;
-	Quantum theory, LS coupling, 
-How do people usually do spectroscopy?
-	Plasma cells etc; hot af
-
-TO
-	Add dipole force slide
-	Remove aliasing from response function slide
-	Add polz plots back in
-	Most sensitive optical potential
-	Freq stability 18mHz
-
-## Intro
+ 5:20 (5:20)
 >> UPDATE J IN LEVEL DIAGRAM
 
-Helium is the second-most abundant element in the known universe, comprising 23 percent of baryone mass, most of which produced in nucleosynthesis, three minutes after the big bang. Helium is a major product of stellar fusion, and takes its name from the greek sun titan Helios as it was first detected by observation of a 587nm line during a solar eclipse which could not be identified with any other known elements. Back on earth, Helium comprises only 20ppm of the atmosphere, as it is light enough to float through the stratosphere and escape into space. The founder of our school, Mark Oliphant, was part of the team that first identified Helium-3 by mass-to-charge ratio separation from the tritium nucleus. In fact, Helium has two stable isotopes, the fermionic helium 3 and the bosonic helium 4. In the furnace of the sun, spin certainly has thermodynamic consequences, but on the other end of the temperature scale, near absolute zero, the importance of spin becomes readily apparent. Helium-4, a boson, is not bound by the exclusion principle and so many bosons can occupy the same quantum state. When a large fraction of a bosonic gas condenses into the ground state of the confining potential, the resulting phase of matter is called a Bose-Einstein condensate. This image depicts the process of condensation, with a notable population of the zero-momentum mode coexisting with a thermal background at a few hundred microkelvin, eventually subsuming most of the gas at ultralow temperatures. Bose-Einstein condensates, or BEC, are named for Satyendra Nath Bose and Albert Einstein, both credited for their prediction some 70 years before the state was produced in a lab.
+Helium is the second-most abundant element in the known universe, comprising 23 percent of baryone mass, most of which produced in nucleosynthesis, three minutes after the big bang. Helium is a major product of stellar fusion, and takes its name from the greek sun titan Helios as it was first detected by observation of a 587nm line during a solar eclipse which could not be identified with any other known elements. Back on earth, Helium comprises only 5 of the atmosphere, as it is light enough to float through the stratosphere and escape into space. The founder of our school, Mark Oliphant, was part of the team that first identified Helium-3 by mass-to-charge ratio separation from the tritium nucleus. In fact, Helium has two stable isotopes, the fermionic helium 3 and the bosonic helium 4. In the furnace of the sun, spin certainly has thermodynamic consequences, but on the other end of the temperature scale, near zero kelvin, the fun really starts. Helium-4, a boson, is not bound by the exclusion principle and so many bosons can occupy the same quantum state. When a large fraction of a bosonic gas condenses into the ground state of the confining potential, the resulting phase of matter is called a Bose-Einstein condensate. This image depicts the process of condensation, with a notable population of the zero-momentum mode coexisting with a thermal background at a few hundred microkelvin, eventually subsuming most of the gas at ultralow temperatures. Bose-Einstein condensates, or BEC, are named for Satyendra Nath Bose and Albert Einstein, both credited for their prediction some 70 years before the state was produced in a lab.
 
 The first elements condensed were the alkali atoms Sodium and Potassium, and now a whole zoo of elements have been cooled to degeneracy, both bosons and fermions, all with their advantages and drawbacks. Helium is presently the only noble gas to have been condensed, and it's likely to remain that way. Since the first BEC in 1995, the field has flourished into a global industry, and we'll take a peek at elements of the cutting edge along the way today.
 
@@ -70,7 +28,9 @@ This gap also allows us to employ detectors typically used in much higher energy
 So now you've got a BEC. What do you want to do with it?
 
 
+
 ## Metrology I: Spectroscopy
+6:17 (11:38)
 
 How about some good old-fashioned spectroscopy?
 
@@ -93,6 +53,8 @@ Our measurement at two independently calibrated field strengths and narrow spect
 
 ## Metrology II: Tuneout
 
+3:20 (15:00)
+
 But I promised you tests of QED, so let's talk about the campaign we're wrapping up for a precision measurement of the 413nm tuneout wavelength in Helium.
 
 Tuneout wavelengths are those for which an atom is completely ignorant of the AC electric field. They're a consequence of competing level shifts, so let's build that up for a refresher. The level spacing of a two-level atom expands when exposed to a coherent field which is red relative to the natural splitting. Conversely, a blue-detuned light field compresses the level splitting. Atoms in the ground state feel a force equal to the intensity gradient multiplied by the frequency-dependent polarizability, drawing them to maxima in the red-detuned case, and minima in the blue-detuned case. This is the dipole force, the basis of the optical tweezer. The polarizability of a multi-level atom therefore is dependent on many simultaneous level shifts, and the tuneout wavelengths for a given ground state are those at which all of these shifts exactly cancel, rendering the atoms completely blind to radiation at that frequency. Thanks to Helium's structural simplicity, these wavelengths can be predicted with X accuracy, including high-order corrections for effects of QED, therefore a measurement of a Tuneout in Helium provides a stringent, absolute constraint.
@@ -109,6 +71,8 @@ You'll learn all about at Bryce's final seminar, when we're done with our analys
 
 ## Many-body physics I: Quantum Depletion
 
+4:17 (19:17)
+
 Moving away from the world of atomic physics, another major research area of BECs is the study of extensive coherent phenomena like superfluidity and superconductivity. While all BECs are superfluids, but not all of a superfluid is condensate - the particle density in a superfluid is some 10^X times greater than in our BECs, which are about one ten thousanth of atmospheric density, so inter-atomic interactions force occupation of momentum modes other than the ground state, which is known as the quantum depletion of a condensate. 
 In more detail, to make the physics of condensates more tractable, a common approximation is to replace the state vector with a complex field whose amplitude squared is the ground-state density, and whose phase is fixed after breaking the U(1) symmetry when crossing the BEC transition. This cannot be a complete picture of a condensate, because it implies a zero-entropy state which is forbidden by the second law of thermodynamics. In fact, a condensate always coexists with a population of thermal atoms, and even an ideal stationary condensate has a quasiparticle spectrum described by the Bogoliubov theory, which like all spectra is subject to quantum fluctuations. These fluctuations are described by a density-dependent quantum correction to the mean-field wavefunction, and their population scales with the dimensionless gas parameter which characterizes the importance of interactions, increasing with density and interparticle scattering length.
 
@@ -122,6 +86,8 @@ So there's consistend divergence of theory and experiment, which means there's m
 
 ## Many-body physics II: Optical Lattices
 
+3:47 (23:00)
+
 Our final leap this afternoon is from the weakly to the strongly interacting regime, towards quantum state engineering and the state of the art of ultracold atom systems: An optical lattice for quantum simulation.
 
 Broadly speaking, quantum physics is hard because only a handful of models are exactly solvable, and because the state space grows exponentially with the number of subsystems. Therefore, if we want to get a handle on large quantum states for applications in sensing, metamaterials, or computing, we need a way around this obstruction. The posterchild for solutions to this problem are quantum computers, but in the arms race for computational advantage, classical computers don't look like they're about to give up the ghost just yet. However, the capability of so-called quantum simulators, or controllable quantum systems that directly realize a problem of interest beyond the limits of modern classical simulation, is one way to harness a quantum advantage without a universal quantum computer. 
@@ -134,5 +100,6 @@ We're not there yet. In the meantime, here are some happy snaps from the buildin
 
 ## Conclusion
 
+0:40 (23:45)
 
 As I said, we're a strongly collaborative group. Externally, Piotr Deuar has provided great support on the depletion project, Gordon Drake and Li-Yan Tan made our tuneout measurement possible, and Chris Vale lent us the laser we've been flogging for the last twelve months, even sending their postdoc Carlos along for some of the three months it took us to get the damn thing aligned. Thanks to our indispensable technicians Ross and Colin, we have an experiment in the first place, and thanks to the technical and moral support of my supervisors and fellow students, none of this would have happened. And, of course, thanks to all of you, my captive audience, for your attention. 
