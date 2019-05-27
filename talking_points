@@ -1,0 +1,47 @@
+# Midterm notes
+
+## Intro
+
+Helium: named after Helios
+Discovered in solar eclipse by Herschel's team and could not be identified with known spectra
+	 $1s2p ^3P \rightarrow 1s3d 1D \& 3D$ probably blurring of both
+Second most abundant element in the universe, 23 percent of baryonic mass mostly from the first 3 mins of universe.
+Major fusion product in the elementary forge of the sun, and critical ingredient in forming Carbon-6, essential for life as we know it.
+On earth, vanishingly rare; some 5ppm in atmo
+Connecting to RSPE, Mark Oliphant was part of the team that identified the Helium 3 nucleus in the first ever nuclear fusion experiments
+Of course, there are two stable isotopes of helium; fermionic helium 3, and bosonic helium 4. Their spectra differ, but the fun really starts when we move to the other end of the Kelvin scale, near absolute zero, where helium 4 forms a bose-einstein condensate.
+
+### Cold atom intro
+
+###
+
+Today I'll be talking to you about some recent work by The Helium BEC group, which I hope will illustrate the wealth of problems one can tackle in the ultracold regime. I'll be talking specifically about works that I've been closely involved with, namely two recent ventures into atomic spectroscopy and two works that look beyond single-atom physics into weak and strongly interacting systems, respectively.
+
+So obviously a BEC is a very unusual state of matter - indeed they were only observed in 1995, 70-odd years after they were first described theoretically. The first question one might have is how one actually gets anywhere near absolute zero - and to answer that I'll talk you through the anatomy of a BEC factory. 
+
+This is a schematic of our experiment, which looks kind of forbidding but we'll break it down piece by piece. The bulk of the device is the vacuum chamber, which thanks to a half-dozen turbomolecular pumps is evacuated to about a trillionth of an atmosphere in the science chamber. The pressure is considerably higher in the hot end which houses the plasma discharge source we use to produce Helium in the metastable excited state, which I'll return to shortly. The helium gas expands through a skimming nozzle creating a wide beam, which is collimated and slowed by several stages of laser cooling before capture in a magneto-optical trap. Then, we use a faint beam to kick atoms through a differential pumping stage into the second MOT in the science chamber, where the pressure is low enough to transfer the helium to a magnetic trap and achieve BEC by forced evaporative cooling. We have various devices with which we interrogate the atoms, and then observe their response after they freefall for 350 ms onto our detector. But that's a lot to take in, so let's break that down.
+
+### Laser cooling
+
+Doppler cooling does a great deal of work for us, and the mechanism is alarmingly simple. Consider a two-level atom with some velocity in the laboratory frame. Now suppose there are two oppositely directed lasers, each tuned red, or lower frequency, of the natural transition by some gap Delta. Now, in the atom's reference frame, these beams will be Doppler shifted, and the beam propagating opposite to the atom's motion will be blue-shifted, perhaps enough that the doppler shift little delta is enough to bring the beam back into resonance. The atom absorbs a photon, and thereby a momentum impulse opposite to its motion, slowing it down. If the upper state lifetime is short enough, it will scatter many times before walking out of the beam, each decay giving a kick in a random direction, which over many scattering event averages to zero. This process can neither confine atoms nor, in general, cool them to the ground state, but is instead limited because the linewidth of the atomic transition eventually renders small velocity differences indistinguishable; this is the Doppler limit, which for helium is about 1mK. The first stage of cooling in our experiment is a 2D atomic beam collimation stage, which employs 2D Doppler cooling, before loading into a magneto-optical trap. 
+
+\
+
+So why Helium? 
+Helium's ground state is nearly 20 eV away from the rest of the electronic states, which makes it inaccessible by modern laser technology. However, the 2^3S1 state is doubly forbidden to decay to the ground state, so is endowed with an extraordinarily long lifetime of 7xxx seconds - more than enough for the experiments I'll talk about today. 
+
+
+
+General: Add take-home in text
+
+Spectroscopy has driven technology;
+	Quantum theory, LS coupling, 
+How do people usually do spectroscopy?
+	Plasma cells etc; hot af
+
+TO
+	Add dipole force slide
+	Remove aliasing from response function slide
+	Add polz plots back in
+	Most sensitive optical potential
+	Freq stability 18mHz
