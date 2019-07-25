@@ -5,7 +5,6 @@
 ## Intro
 
  5:20 (5:20)
->> UPDATE J IN LEVEL DIAGRAM
 
 Helium is the second-most abundant element in the known universe, comprising 23 percent of baryone mass, most of which produced in nucleosynthesis, three minutes after the big bang. Helium is a major product of stellar fusion, and takes its name from the greek sun titan Helios as it was first detected by observation of a 587nm line during a solar eclipse which could not be identified with any other known elements. Back on earth, Helium comprises only 5 of the atmosphere, as it is light enough to float through the stratosphere and escape into space. The founder of our school, Mark Oliphant, was part of the team that first identified Helium-3 by mass-to-charge ratio separation from the tritium nucleus. In fact, Helium has two stable isotopes, the fermionic helium 3 and the bosonic helium 4. In the furnace of the sun, spin certainly has thermodynamic consequences, but on the other end of the temperature scale, near zero kelvin, the fun really starts. Helium-4, a boson, is not bound by the exclusion principle and so many bosons can occupy the same quantum state. When a large fraction of a bosonic gas condenses into the ground state of the confining potential, the resulting phase of matter is called a Bose-Einstein condensate. This image depicts the process of condensation, with a notable population of the zero-momentum mode coexisting with a thermal background at a few hundred microkelvin, eventually subsuming most of the gas at ultralow temperatures. Bose-Einstein condensates, or BEC, are named for Satyendra Nath Bose and Albert Einstein, both credited for their prediction some 70 years before the state was produced in a lab.
 
@@ -76,7 +75,6 @@ With zero-crossing uncertainties on the order of 100MHz, we are able to resolve 
 You'll learn all about at Bryce's final seminar, when we're done with our analysis.
 
 ## Many-body physics I: Quantum Depletion
-
 
 (fractional power comes from Thomas Fermi expression for chemical potential)
 4:17 (19:17)
